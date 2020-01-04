@@ -1,0 +1,10 @@
+{
+"clients":[
+{"Name":"Petar Petrović","Address":"Knez Mihailova 2","Email":"petar.pe22@gmail.com","ClientID":"312456789123"},
+{"Name":"Pera Perić","Address":"Knez Mihailova 4","Email":"pera.pe22@gmail.com","ClientID":"312456789122"},
+{"Name":"Laza Lazić","Address":"Knez Mihailova 7","Email":"laza@gmail.com","ClientID":"312456789121"},
+{"Name":"Mika Mikić","Address":"Kneza Miloša 42","Email":"mika@gmail.com","ClientID":"312456789124"},
+{"Name":"Žika Žikić","Address":"Kneza Miloša 47","Email":"zika@gmail.com","ClientID":"312456789125"},
+{"Name":"Pavle Pavlović","Address":"Kneza Miloša 11","Email":"pavle@gmail.com","ClientID":"312456789126"}
+]
+}

@@ -1,0 +1,448 @@
+.required
+{
+	color: red;
+}
+
+label
+{	
+	margin-bottom: 10px;
+}
+
+#loginElements 
+{
+	padding-top: 50px;
+	text-align: right;
+}
+
+#loginElements form, #response
+{
+	position: absolute;
+	right: 20px;
+	z-index: 9;
+}
+
+#response
+{
+	top: 150px;
+}
+
+#welcome
+{
+	position: relative;
+	top: 20px;
+}
+
+.container
+{
+	position: relative;
+}
+
+#logout
+{
+	position: relative;
+	float: right;
+	top: 10px;
+	right: 25px;
+}
+
+main
+{
+	margin-top: 30px;
+	text-align: center;
+}
+
+#search
+{
+	width: 80%;
+	margin: 30px auto 0 auto;	
+    display: inline-block;
+}
+
+#ticket
+{
+	text-align: center;
+	width: 80%;
+	margin: 30px auto 0 auto;
+}
+
+#search div, #ticketForm div, #statusForm div
+{
+	float: left;
+	text-align: right;
+}
+
+#ticketForm
+{
+	margin-bottom: 80px;
+	display: inline-block;
+	width: 100%;
+}
+
+#ticketForm .textarea
+{
+	width: 75%;
+	margin: 20px 12.5% 0 12.5%;
+	text-align: left;
+}
+
+#ticketForm textarea, .textarea label
+{
+	width: 100%;
+}
+
+#search .btn
+{
+	clear: both;
+	float: right;
+	position: relative;
+	right: 2%;
+}
+
+#create
+{
+	float: left;
+	margin-left: 10%;
+}
+
+.createNew
+{
+	clear: both;
+	margin-top: 50px;
+}
+
+#statusForm .right
+{
+	text-align: left;
+}
+
+#statusForm
+{
+	display: inline-block;
+}
+
+.createButton
+{
+	width: 100%;
+    text-align: center !important;
+}
+
+form
+{
+	display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+table
+{
+	margin-top: 50px;
+}
+
+footer
+{
+	clear: both;
+	text-align: center;
+	margin-top: 150px;
+	padding: 25px 0;
+	background-color: #52B4E9;
+	font-weight: bold;
+}
+
+.info
+{
+	width: 100%;
+}
+
+.btn
+{
+	width: 80px;
+}
+
+#loginElements form
+{
+	text-align: right;
+}
+
+#ticket .left
+{
+	clear: both;
+}
+
+#ticket .right
+{
+	text-align: center;
+}
+
+#ticketForm select, #ticketForm input
+{
+	margin-right: 5%;
+}
+
+#createNew 
+{
+	margin-right: 0;
+}
+
+#ticket .alert
+{    
+	position: absolute;
+    top: 615px;
+    right: 10%;
+    text-align: center;
+    width: 80%;
+}
+
+.searchIndex
+{
+	position: absolute;
+	background-color: #52B4E9;
+	overflow: hidden;
+	width: 15.6%;
+	text-align: center !important;
+    z-index: 100;
+}
+
+.searchIndex a
+{
+	color: #000000;
+}
+
+#livesearchId
+{
+	top: 125px;
+    right: 64.3%;
+}
+
+#livesearchUser
+{
+	top: 125px;
+    right: 38.3%;
+}
+
+#livesearchClient
+{
+	top: 125px;
+    right: 12.3%;
+}
+
+#livesearchStatus
+{
+	top: 162px;
+    right: 64.3%;
+}
+
+#livesearchHeading
+{
+	top: 162px;
+    right: 38.3%;
+}
+
+#livesearchDateFrom
+{
+	top: 162px;
+    right: 12.3%;
+}
+
+#livesearchDateTo
+{
+	top: 199px;
+    right: 64.3%;
+}
+
+#stat #searchIndex
+{
+	box-sizing: content-box;
+}
+
+#stat #livesearchStatus 
+{
+    top: 126px;
+    right: 38.3%;
+}
+
+#cli #livesearchClient 
+{
+    right: 38.3%;
+}
+
+#import
+{
+	float: right;
+    position: relative;
+    right: 11.5%;
+    top: 205px;
+}
+
+#cli .createNew
+{
+	display: none;
+}
+
+#searchNew
+{
+	margin-bottom: 50px;
+}
+
+#findMovie
+{
+	float: right;
+    position: relative;
+    right: 11.5%;
+}
+
+@media only screen and (max-width: 1280px) 
+{
+	#loginElements form
+	{
+		position: relative;
+	}
+	#welcome
+	{
+		position: relative;
+		top: -20px;
+	}	
+}
+
+@media only screen and (max-width: 1200px) 
+{
+	#search
+	{
+		width: 100%;
+	}
+
+	.searchIndex
+	{
+		width: 19.5%;
+	}
+
+	#livesearchId
+	{
+		top: 125px;
+	    right: 67.7%;
+	}
+
+	#livesearchUser
+	{
+		top: 125px;
+	    right: 35.3%;
+	}
+
+	#livesearchClient
+	{
+		top: 125px;
+	    right: 3.1%;
+	}
+
+	#livesearchStatus
+	{
+		top: 162px;
+	    right: 67.7%;
+	}
+
+	#livesearchHeading
+	{
+		top: 162px;
+	    right: 35.3%;
+	}
+
+	#livesearchDateFrom
+	{
+		top: 162px;
+	    right: 3.1%;
+	}
+
+	#livesearchDateTo
+	{
+		top: 199px;
+	    right: 67.7%;
+	}
+
+	#stat #livesearchStatus 
+	{
+	    right: 35.3%;
+	}
+
+	#cli #livesearchClient 
+	{
+	    right: 35.3%;
+	}
+}
+
+@media only screen and (max-width: 991px) 
+{
+	#search .right, #ticketForm .right, #divClient
+	{
+		position: relative;
+		right: 10%;
+	}
+
+	#search .btn
+	{
+		clear: both;
+		float: right;
+		position: relative;
+		right: 12%;
+	}
+
+	#statusForm .right
+	{
+		text-align: right;
+	}
+
+	.searchIndex
+	{
+		width: 22%;
+	}
+
+	#livesearchId
+	{
+		top: 125px;
+	    right: 52%;
+	}
+
+	#livesearchUser
+	{
+		top: 125px;
+	    right: 13.7%;
+	}
+
+	#livesearchClient
+	{
+		top: 164px;
+	    right: 52%;
+	}
+
+	#livesearchStatus
+	{
+		top: 164px;
+	    right: 13.7%;
+	}
+
+	#livesearchHeading
+	{
+		top: 200px;
+	    right: 52%;
+	}
+
+	#livesearchDateFrom
+	{
+		top: 200px;
+	    right: 13.7%;
+	}
+
+	#livesearchDateTo
+	{
+		top: 237px;
+	    right: 52%;
+	}
+
+	#stat #livesearchStatus 
+	{
+	    right: 13.8%;
+	}
+
+	#cli #livesearchClient {
+	    right: 4%;
+	    top: 125px;
+	}
+}
